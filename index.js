@@ -55,6 +55,6 @@ function gitInit(_, config) {
 		.then(() => gitCommit());
 }
 
-module.exports = {
-	gitInit
+module.exports = function (plop) {
+  plop.setActionType('gitInit', gitInit);
 }
