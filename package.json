@@ -1,0 +1,31 @@
+{
+  "name": "plop-pack-git-init",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint",
+    "format": "eslint --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plopjs/plop-actions.git"
+  },
+  "author": "",
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "node-plop": "0.25.0",
+    "prettier": "^2.0.5"
+  },
+  "peerDependencies": {
+    "node-plop": "0.25.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plopjs/plop-actions/issues"
+  },
+  "homepage": "https://github.com/plopjs/plop-actions#readme"
+}
