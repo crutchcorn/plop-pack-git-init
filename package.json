@@ -1,6 +1,6 @@
 {
   "name": "plop-pack-git-init",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/plopjs/plop-actions/issues"
+    "url": "https://github.com/plopjs/plop-pack-npm-install/issues"
   },
-  "homepage": "https://github.com/plopjs/plop-actions#readme"
+  "homepage": "https://github.com/plopjs/plop-pack-npm-install#readme"
 }
