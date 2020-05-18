@@ -10,13 +10,18 @@ git add -A
 git commit -m "Initial commit"
 ```
 
+## Installation
+
+```
+npm i plop-pack-git-init
+```
+
 ## Example
 
 ```javascript
-const {gitInit} = require('plop-actions');
-
 module.exports = function(plop) {
-  plop.setActionType('gitInit', gitInit);
+  // Loads the gitInit action type
+  plop.load('plop-pack-git-init');
 
   plop.setGenerator('generate', {
     prompts: [
