@@ -56,5 +56,6 @@ function gitInit(_, config) {
 }
 
 module.exports = function (plop) {
+  plop.setDefaultInclude({actionTypes: true});
   plop.setActionType('gitInit', gitInit);
 }
