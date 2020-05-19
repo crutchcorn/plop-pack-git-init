@@ -17,7 +17,7 @@ npm i plop-pack-git-init
 ```
 
 ## Example
-
+z
 ```javascript
 module.exports = function(plop) {
   // Loads the gitInit action type
@@ -36,6 +36,8 @@ module.exports = function(plop) {
         // By default is false, but if "true" will log the output of commands
         verbose: true
       })
+
+      return actions;
     }
   })
 }
