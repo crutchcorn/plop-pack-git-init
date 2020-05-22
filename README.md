@@ -17,7 +17,7 @@ npm i plop-pack-git-init
 ```
 
 ## Example
-z
+
 ```javascript
 module.exports = function(plop) {
   // Loads the gitInit action type

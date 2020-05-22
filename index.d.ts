@@ -1,4 +1,3 @@
-import {CustomActionFunction} from "node-plop";
+import {NodePlopAPI} from "node-plop";
 
-export const gitInit: CustomActionFunction;
-export const npmInstall: CustomActionFunction;
+export default function (plop: NodePlopAPI): void;
